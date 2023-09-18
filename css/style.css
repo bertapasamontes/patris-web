@@ -1,0 +1,111 @@
+body{
+    margin: 25px;
+    padding-top: 50px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------- HEADER -----------------------------------------*/
+#nombre-web{
+    font-family: Georgia, serif;
+    display: grid;
+    text-align: center;
+    margin: 25px;
+    margin-top: 5%;
+    color: aliceblue;   
+    
+}
+.nombre {
+    font-size: 120%;
+}
+.apellidos {
+    font-size: 190%;
+}
+
+nav {
+    display: grid;
+    justify-items: center;
+    margin: 25px;
+}
+
+nav ul {
+    /* list-style: none; */
+    overflow: hidden; 
+}
+nav ul li {
+    float:left;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: aliceblue;
+}
+
+nav ul li a {
+    display: block; 
+    /* padding: 20px; */
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #f5b677;
+}
+nav ul li:hover {
+    color: #f5b677;
+}
+
+/* -------------------------- CONTAINER -----------------------------------------*/
+content .description{
+    padding: 25px;
+    display: grid;
+    text-align: center;
+    
+    
+}
+
+content .description{
+    color: aliceblue;
+}
+
+
+
+/*  ------form----- */
+.collapse {
+    margin-bottom: 80px;
+}
+.card{
+    display: grid;
+    align-items: center;
+    margin: 50px;
+    
+}
+.card{
+    display: grid;
+    align-items: center;
+    margin: 50px;
+    /* width: 865px; */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------- FOOTER -----------------------------------------*/
+.footer{
+    position: static;
+    bottom: 0;
+    /* width: 100%;
+    height: 40px; */
+    margin-top: 50px;
+}
+
+.footer .row img {
+    width: 25%;
+}
+.contact {
+    display:flex;
+    justify-content: center;
+}
+
+
