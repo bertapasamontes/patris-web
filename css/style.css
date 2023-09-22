@@ -27,7 +27,20 @@ tipografia: modern antiqua */
 .apellidos {
     font-size: 250%;
 } */
+@font-face {
+    font-family: 'Modern Antiqua';
+    src: url('fonts/ModernAntiqua-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 
+h1{
+    font-family: 'Modern Antiqua';
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
+}
 .logo img{
     max-width: 9%;
     position: fixed;
@@ -54,7 +67,14 @@ tipografia: modern antiqua */
 	bottom:20px;
 	right:20px;
 }
+/* GALERIA DE FOTOS */
+.container .row {
+    margin-bottom: 10px;
+}
 
+.container .row .img{
+    justify-content: start;
+}
 
 /*  ------form----- */
 .collapse {
