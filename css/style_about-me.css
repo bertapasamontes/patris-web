@@ -9,7 +9,7 @@ body{
 
 /* 
 tipografia: modern antiqua */
-#nombre-web{
+/* #nombre-web{
     font-family: georgia, serif;
     display: grid;
     text-align: center;
@@ -23,6 +23,11 @@ tipografia: modern antiqua */
 }
 .apellidos {
     font-size: 190%;
+} */
+
+.logo-img{
+width: 30%;
+
 }
 
 nav {
