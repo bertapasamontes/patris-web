@@ -30,11 +30,18 @@ width: 30%;
 
 }
 
-nav {
+.cabecera {
+    font-size: 25px;
+}
+
+.cabecera ul li a:hover {
+    color: #f5b677;
+}
+/* nav {
     display: grid;
     justify-items: center;
     margin: 25px;
-}
+} */
 
 nav ul {
     /* list-style: none; */
