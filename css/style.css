@@ -1,12 +1,37 @@
+* {
+    outline: 0!important;
+    cursor: none!important;
+  }
+
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    transition: transform 350ms ease;
+    transform: translate(-50%,-50%) scale(.3);
+    z-index: 10000
+}
+
+.custom-cursor--link {
+    transform: translate(-50%,-50%) scale(1)
+}
+
 body{
     padding: 25px;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     height: 3000px;
+    
+    /* cursor: url("img/circulo.png"), auto; mix-blend-mode: difference; */
 }
 .selector-for-some-widget {
     box-sizing: content-box;
-  }
+}
 
 /* -------------------------- HEADER -----------------------------------------*/
 
@@ -66,6 +91,7 @@ p {
     cursor: pointer;
 	bottom:20px;
 	right:20px;
+    z-index: 999;
 }
 /* GALERIA DE FOTOS */
 .container .row {

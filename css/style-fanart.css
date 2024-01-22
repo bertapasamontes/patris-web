@@ -1,3 +1,36 @@
+/*  --------------START----------------------- CURSOR CUSTOMIZADO --------------------------------- */ 
+* {
+    outline: 0!important;
+    cursor: none!important;
+  }
+
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    transition: transform 350ms ease;
+    transform: translate(-50%,-50%) scale(.3);
+    z-index: 10000
+}
+
+.custom-cursor--link {
+    transform: translate(-50%,-50%) scale(1)
+}
+/*  --------------FIN----------------------- CURSOR CUSTOMIZADO --------------------------------- */ 
+
+
+
+
+
+
+
+
+
 body{
     padding: 25px;
     color: aliceblue;
@@ -57,6 +90,11 @@ p {
 .nav-link{
     color: var(--bs-nav-link-color);
 }
+
+
+
+
+
 
 
 /* -------------------------- CONTENT -----------------------------------------*/
